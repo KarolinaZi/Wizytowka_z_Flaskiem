@@ -1,0 +1,20 @@
+h1 {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    background: lightgray;
+  }
+h2 {
+    color: purple;
+    font-size: 15px;
+  }
+h3 {
+    color: blue;
+    font-size: 15px;
+  }
+ul {
+    font-size: 10px;
+  }
+img {
+  border: 1px solid blue;
+  }

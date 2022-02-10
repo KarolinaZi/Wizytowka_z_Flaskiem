@@ -1,0 +1,17 @@
+{% extends "wizytowka_parent.html" %}
+
+{% block content %}
+<img src="{{url_for('static',filename='telephone2.jpg')}}"title="Telefon" alt="Zabytkowy telefon" width=”320″ height=”213″>
+<h2><i>Kontakt</i></h2> 
+<ul>
+    <li><strong>email: </strong>Tytus.DeZoo@gmail.com </li>
+    <li><strong>telefon: </strong> 123 456 789 </li>
+</ul>
+<h3><strong>Wyślij wiadomość<strong></h3>
+
+<form action="" method="post" enctype="multipart/form-data">
+<textarea name="textarea"></textarea>
+<input type="submit" value="Wyślij" />
+<input type="reset" value="Wyczyść formularz" />
+</form>
+{% endblock %}
